@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Prova</string>
+    <string name="button">Calcular</string>
+    <string name="signo">Signo</string>
+    <string name="dia">Dia</string>
+    <string name="mes">Mês</string>
+    <string name="imagemsigno">ImagemSigno</string>
+    <string name="descricao">Descrição</string>
+</resources>
