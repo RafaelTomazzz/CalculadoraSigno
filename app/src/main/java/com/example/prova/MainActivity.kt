@@ -27,8 +27,8 @@ class MainActivity : AppCompatActivity() {
         when (datames) {
             1 -> if (datadia > 19)
             {
-                //val Image: ImageView = binding.imageView
-                //Image.setImageResource(R.drawable.aquario_png)
+                val Image: ImageView = binding.imageView
+                Image.setImageResource(R.drawable.aquario)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Aquário")
                 val textDescricao: TextView = binding.descricao
@@ -36,8 +36,8 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.capricornio)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.capricornio)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Capricórnio")
                 val textDescricao: TextView = binding.descricao
@@ -47,8 +47,8 @@ class MainActivity : AppCompatActivity() {
 
             2 -> if (datadia > 18)
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.peixes)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.peixes)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Peixes")
                 val textDescricao: TextView = binding.descricao
@@ -56,8 +56,8 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.aquario_png)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.aquario)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Aquário")
                 val textDescricao: TextView = binding.descricao
@@ -67,8 +67,8 @@ class MainActivity : AppCompatActivity() {
 
             3 -> if (datadia > 20)
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.aries)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.aries)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Áries")
                 val textDescricao: TextView = binding.descricao
@@ -76,8 +76,8 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.peixes)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.peixes)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Peixes")
                 val textDescricao: TextView = binding.descricao
@@ -87,8 +87,8 @@ class MainActivity : AppCompatActivity() {
 
             4 -> if (datadia > 19)
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.touro)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.touro)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Touro")
                 val textDescricao: TextView = binding.descricao
@@ -96,8 +96,8 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.aries)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.aries)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Áries")
                 val textDescricao: TextView = binding.descricao
@@ -107,8 +107,8 @@ class MainActivity : AppCompatActivity() {
 
             5 -> if (datadia > 21)
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.gemeos)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.gemeos)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Gêmeos")
                 val textDescricao: TextView = binding.descricao
@@ -116,8 +116,8 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.touro)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.touro)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Touro")
                 val textDescricao: TextView = binding.descricao
@@ -127,8 +127,8 @@ class MainActivity : AppCompatActivity() {
 
             6 -> if (datadia > 21)
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.cancer)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.cancer)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Câncer")
                 val textDescricao : TextView = binding.descricao
@@ -136,8 +136,8 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.gemeos)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.gemeos)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Gêmeos")
                 val textDescricao: TextView = binding.descricao
@@ -147,8 +147,8 @@ class MainActivity : AppCompatActivity() {
 
             7 -> if (datadia > 23)
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.leao)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.leao)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Leão")
                 val textDescricao: TextView = binding.descricao
@@ -156,8 +156,8 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.cancer)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.cancer)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Câncer")
                 val textDescricao: TextView = binding.descricao
@@ -167,8 +167,8 @@ class MainActivity : AppCompatActivity() {
 
             8 -> if (datadia > 22)
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.virgem)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.virgem)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Virgem")
                 val textDescricao: TextView = binding.descricao
@@ -176,8 +176,8 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.leao)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.leao)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Leão")
                 val textDescricao: TextView = binding.descricao
@@ -187,8 +187,8 @@ class MainActivity : AppCompatActivity() {
 
             9 -> if (datadia > 22)
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.libra)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.libra)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Libra")
                 val textDescricao : TextView = binding.descricao
@@ -196,8 +196,8 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.virgem)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.virgem)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Virgem")
                 val textDescricao: TextView = binding.descricao
@@ -207,8 +207,8 @@ class MainActivity : AppCompatActivity() {
 
             10 -> if (datadia > 22)
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.escorpiao)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.escorpiao)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Escorpião")
                 val textDescricao : TextView = binding.descricao
@@ -216,8 +216,8 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.libra)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.libra)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Libra")
                 val textDescricao : TextView = binding.descricao
@@ -227,8 +227,8 @@ class MainActivity : AppCompatActivity() {
 
             11 -> if (datadia > 21)
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.sagitario)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.sagitario)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Sagitário")
                 val textDescricao : TextView = binding.descricao
@@ -236,8 +236,8 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.escorpiao)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.escorpiao)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Escorpião")
                 val textDescricao : TextView = binding.descricao
@@ -247,8 +247,8 @@ class MainActivity : AppCompatActivity() {
 
             12 -> if (datadia > 21)
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.capricornio)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.capricornio)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Capricórnio")
                 val textDescricao : TextView = binding.descricao
@@ -256,8 +256,8 @@ class MainActivity : AppCompatActivity() {
             }
             else
             {
-                //val Image: ImageView = findViewById(R.id.imageView)
-                //Image.setImageResource(R.drawable.sagitario)
+                val Image: ImageView = findViewById(R.id.imageView)
+                Image.setImageResource(R.drawable.sagitario)
                 val textSigno: TextView = binding.textViewSigno
                 textSigno.setText("Sagitário")
                 val textDescricao : TextView = binding.descricao
