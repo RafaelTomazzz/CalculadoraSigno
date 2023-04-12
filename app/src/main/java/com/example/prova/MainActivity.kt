@@ -270,7 +270,7 @@ class MainActivity : AppCompatActivity() {
                 textSigno.setText("Erro")
                 val textDescricao : TextView = binding.descricao
                 textDescricao.setText("Erro")
-                val toast = Toast.makeText(this, "As informações de dia ou mes estão inválidas", Toast.LENGTH_SHORT)
+                val toast = Toast.makeText(this, "As informações de dia ou mês estão inválidas", Toast.LENGTH_SHORT)
                 toast.show()
             }
 
